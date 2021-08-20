@@ -1,3 +1,10 @@
-<canvas class="la_forge" width="300" height="370"></canvas>
+<div id="zdog-wrapper">
+  <canvas id="zdog" width="400px" height="400px"></canvas>
+</div>
 <script src="https://unpkg.com/zdog@1/dist/zdog.dist.min.js"></script>
 <script src="la_forge.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function(event) {
+    logo('#zdog', 'rgba(0,5,57,1)', '#FF3118', '#FFF', '#FFF');
+  })
+</script>
